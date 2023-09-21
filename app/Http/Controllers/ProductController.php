@@ -6,8 +6,6 @@ use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\Cart;
 use App\Models\Order;
-
-
 use Session;
 use Illuminate\Support\Facades\DB;  
 class ProductController extends Controller
@@ -17,7 +15,7 @@ class ProductController extends Controller
     {
         $data= Product::all();
 
-        return view('product', ['product'=>$data]); 
+        return view('product', ['product'=>$data]);
     }
 
     function detail($id)

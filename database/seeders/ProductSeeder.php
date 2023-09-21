@@ -43,6 +43,7 @@ class ProductSeeder extends Seeder
             'category'=>'mobile', 
             'gallery'=>'https://www.lg.com/id/images/plp-b2c/id-mobile-hcategoryselector-1.jpg'            
             ],
+            
            
         ]);
     }
